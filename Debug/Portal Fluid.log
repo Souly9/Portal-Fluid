@@ -1,0 +1,10 @@
+﻿  Portal Fluid.cpp
+D:\Programme\FH\Rendering\Portal Fluid\Portal Fluid\Portal Fluid.cpp(264,16): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Programme\FH\Rendering\Portal Fluid\Portal Fluid\Portal Fluid.cpp(270,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+D:\Programme\FH\Rendering\Portal Fluid\Portal Fluid\Portal Fluid.cpp(351,12): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Programme\FH\Rendering\Portal Fluid\Portal Fluid\Portal Fluid.cpp(352,12): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Programme\FH\Rendering\Portal Fluid\Portal Fluid\Portal Fluid.cpp(359,17): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Programme\FH\Rendering\Portal Fluid\Portal Fluid\Portal Fluid.cpp(360,17): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Programme\FH\Rendering\Portal Fluid\Portal Fluid\Portal Fluid.cpp(361,11): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+D:\Programme\FH\Rendering\Portal Fluid\Portal Fluid\Portal Fluid.cpp(362,11): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  Portal Fluid.vcxproj -> D:\Programme\FH\Rendering\Portal Fluid\Debug\Portal Fluid.exe

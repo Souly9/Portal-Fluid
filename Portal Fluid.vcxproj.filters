@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{0a423cac-9060-49c3-b9a8-5000b1d6e57e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Emitter">
+      <UniqueIdentifier>{e2425ef8-cf9a-43bf-862e-449b7a5fd5c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\BillBoardOnly">
+      <UniqueIdentifier>{f15b8367-d238-4c45-be65-c50fbcd1392f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Fluid Shaders">
+      <UniqueIdentifier>{e338678d-89ff-41e8-9b8b-1191a94d99a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Portal Fluid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EmitterVert.vs">
+      <Filter>Shader\Emitter</Filter>
+    </None>
+    <None Include="ParticleVert.vs">
+      <Filter>Shader\Fluid Shaders</Filter>
+    </None>
+    <None Include="ParticleGeometry.gs">
+      <Filter>Shader\Fluid Shaders</Filter>
+    </None>
+    <None Include="EmitterFrag.frag">
+      <Filter>Shader\Emitter</Filter>
+    </None>
+    <None Include="ParticleFrag.frag">
+      <Filter>Shader\Fluid Shaders</Filter>
+    </None>
+    <None Include="BillBoardOnlyFrag.frag">
+      <Filter>Shader\BillBoardOnly</Filter>
+    </None>
+  </ItemGroup>
+</Project>
